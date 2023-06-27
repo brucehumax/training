@@ -1,6 +1,5 @@
 .PHONY: static, dynamic, objectstatic, objectdynamic, clnstatic, clndynamic
-CC = gcc
-# /opt/trendchip/buildroot-gcc493_glibc222_arm32_32bServer/usr/bin/arm-buildroot-linux-gnueabi-gcc
+CC = /opt/trendchip/buildroot-gcc493_glibc222_arm32_32bServer/usr/bin/arm-buildroot-linux-gnueabi-gcc
 AR = /opt/trendchip/buildroot-gcc493_glibc222_arm32_32bServer/usr/bin/arm-buildroot-linux-gnueabi-gcc-ar
 
 static:
