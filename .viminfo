@@ -31,18 +31,46 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/b9_systemcall/file_management/test.txt
-'1  18  22  ~/b9_systemcall/file_management/main.c
-'2  19  44  ~/b9_systemcall/file_management/main.c
-'3  17  2  ~/b9_systemcall/file_management/main.c
-'4  1  0  ~/b9_systemcall/file_management/main,.c
-'5  21  15  ~/b9_systemcall/file_management/main.c
-'6  1  0  ~/b9_systemcall/file_management/main.c
-'7  11  22  ~/b9_systemcall/file_management/main.c
-'8  20  24  ~/b9_systemcall/file_management/main.c
-'9  16  11  ~/b9_systemcall/file_management/main.c
+'0  36  16  ~/b9_systemcall/process_control/exec/main.c
+'1  1  0  ~/b9_systemcall/process_control/exec/main.c
+'2  8  16  ~/b9_systemcall/process_control/exec/Makefile
+'3  7  31  ~/b9_systemcall/file_management/Makefile
+'4  5  22  ~/b9_systemcall/file_management/Makefile
+'5  1  0  ~/b5_makefile/Implicit_rule/Makefile
+'6  6  20  ~/b10_process_thread/fifo_semaphore/main.c
+'7  21  1  ~/b10_process_thread/fifo_semaphore/main.c
+'8  6  39  ~/b10_process_thread/fifo_semaphore/Makefile
+'9  8  17  ~/b10_process_thread/pipe_mutex/Makefile
 
 # Jumplist (newest first):
+-'  36  16  ~/b9_systemcall/process_control/exec/main.c
+-'  1  0  ~/b9_systemcall/process_control/exec/main.c
+-'  8  16  ~/b9_systemcall/process_control/exec/Makefile
+-'  1  0  ~/b9_systemcall/process_control/exec/Makefile
+-'  7  31  ~/b9_systemcall/file_management/Makefile
+-'  1  0  ~/b9_systemcall/file_management/Makefile
+-'  5  22  ~/b9_systemcall/file_management/Makefile
+-'  1  0  ~/b5_makefile/Implicit_rule/Makefile
+-'  6  20  ~/b10_process_thread/fifo_semaphore/main.c
+-'  1  0  ~/b10_process_thread/fifo_semaphore/main.c
+-'  21  1  ~/b10_process_thread/fifo_semaphore/main.c
+-'  6  39  ~/b10_process_thread/fifo_semaphore/Makefile
+-'  1  0  ~/b10_process_thread/fifo_semaphore/Makefile
+-'  8  17  ~/b10_process_thread/pipe_mutex/Makefile
+-'  1  0  ~/b10_process_thread/pipe_mutex/Makefile
+-'  3  1  ~/b10_process_thread/pipe_mutex/Makefile
+-'  8  17  ~/b10_process_thread/process/main.c
+-'  1  0  ~/b10_process_thread/process/main.c
+-'  5  12  ~/b10_process_thread/process/Makefile
+-'  1  0  ~/b10_process_thread/process/Makefile
+-'  23  29  ~/b10_process_thread/process/main.c
+-'  6  19  ~/b10_process_thread/process/main.c
+-'  5  18  ~/b10_process_thread/process/main.c
+-'  73  0  ~/b10_process_thread/process/main.c
+-'  9  0  ~/b10_process_thread/process/main.c
+-'  15  0  ~/b10_process_thread/process/main.c
+-'  12  34  ~/b10_process_thread/process/main.c
+-'  7  18  ~/b10_process_thread/process/Makefile
 -'  1  0  ~/b9_systemcall/file_management/test.txt
 -'  18  22  ~/b9_systemcall/file_management/main.c
 -'  1  0  ~/b9_systemcall/file_management/main.c
@@ -56,8 +84,6 @@
 -'  16  11  ~/b9_systemcall/file_management/main.c
 -'  5  17  ~/b9_systemcall/file_management/main.c
 -'  23  9  ~/b9_systemcall/file_management/main.c
--'  7  22  ~/b9_systemcall/file_management/Makefile
--'  1  0  ~/b9_systemcall/file_management/Makefile
 -'  5  15  ~/b9_systemcall/process_control/exit/Makefile
 -'  1  0  ~/b9_systemcall/process_control/exit/Makefile
 -'  7  3  ~/b9_systemcall/process_control/exit/main.c
@@ -98,7 +124,6 @@
 -'  23  0  ~/b9_systemcall/main.c
 -'  8  20  ~/b9_systemcall/Makefile
 -'  1  0  ~/b5_makefile/PHONY/Makefile
--'  1  2  ~/b5_makefile/Implicit_rule/Makefile
 -'  3  23  ~/b6_shell/clean_script.sh
 -'  1  0  ~/b6_shell/clean_script.sh
 -'  6  25  ~/b6_shell/second_script.sh
@@ -116,32 +141,130 @@
 -'  1  0  ~/b5_makefile/filter_static_pattern_rule/Makefile
 -'  1  0  ~/b5_makefile/Makefile
 -'  1  0  ~/b5_makefile/static_pattern_rule/Makefile
--'  1  0  ~/b5_makefile/static_pattern_rule/foo.c
--'  1  0  ~/b5_makefile/static_pattern_rule/all.c
--'  17  17  ~/b5_makefile/static_pattern_rule/Makefile
--'  3  16  ~/b5_makefile/Implicit_rule/Makefile
--'  5  0  ~/b5_makefile/Implicit_rule/Makefile
--'  7  5  ~/b5_makefile/Implicit_rule/Makefile
--'  1  0  ~/test/Makefile
--'  1  0  ~/test/blah.c
--'  3  13  ~/b4_static_dynamic_lib/main.c
--'  1  0  ~/b4_static_dynamic_lib/main.c
--'  1  0  ~/b5_makefile/Pattern_rule/Makefile
--'  10  8  ~/b5_makefile/Implicit_rule/Makefile
--'  11  0  ~/b5_makefile/Implicit_rule/Makefile
--'  22  0  ~/b4_static_dynamic_lib/Makefile
--'  15  17  ~/b4_static_dynamic_lib/Makefile
--'  3  4  ~/b4_static_dynamic_lib/Makefile
--'  7  8  ~/b5_makefile/Pattern_rule/Makefile
--'  7  0  ~/b5_makefile/Pattern_rule/second.c
--'  1  0  ~/b5_makefile/Pattern_rule/second.c
--'  6  0  ~/b5_makefile/Pattern_rule/first.c
--'  1  0  ~/b5_makefile/Pattern_rule/first.c
--'  6  0  ~/b5_makefile/PHONY/phony.c
--'  1  0  ~/b5_makefile/PHONY/phony.c
--'  6  12  ~/b5_makefile/PHONY/Makefile
 
 # History of marks within files (newest to oldest):
+
+> ~/b9_systemcall/process_control/exec/main.c
+	"	36	16
+	^	36	17
+	.	36	16
+	+	13	20
+	+	30	0
+	+	33	14
+	+	36	16
+
+> ~/b9_systemcall/process_control/exec/Makefile
+	"	8	16
+	^	8	17
+	.	8	16
+	+	7	0
+	+	6	18
+	+	8	16
+
+> ~/b9_systemcall/file_management/Makefile
+	"	7	31
+	^	7	32
+	.	7	31
+	+	7	22
+	+	5	22
+	+	7	31
+
+> ~/b5_makefile/Implicit_rule/Makefile
+	"	1	0
+	^	3	17
+	.	4	0
+	+	11	0
+	+	10	8
+	+	5	13
+	+	3	16
+	+	7	0
+	+	8	1
+	+	5	0
+	+	3	17
+	+	4	0
+
+> ~/b10_process_thread/fifo_semaphore/main.c
+	"	6	20
+	^	6	21
+	.	6	20
+	+	22	0
+	+	13	3
+	+	11	17
+	+	19	27
+	+	21	1
+	+	6	20
+
+> ~/b10_process_thread/fifo_semaphore/Makefile
+	"	6	39
+	^	6	40
+	.	6	39
+	+	8	0
+	+	6	0
+	+	8	21
+	+	6	39
+
+> ~/b10_process_thread/pipe_mutex/Makefile
+	"	8	17
+	^	8	18
+	.	8	17
+	+	3	2
+	+	3	2
+	+	4	0
+	+	6	35
+	+	8	17
+
+> ~/b10_process_thread/process/main.c
+	"	8	17
+	^	8	18
+	.	8	17
+	+	16	0
+	+	25	0
+	+	23	39
+	+	17	19
+	+	3	39
+	+	2	18
+	+	3	39
+	+	4	0
+	+	18	27
+	+	28	0
+	+	31	1
+	+	30	14
+	+	8	18
+	+	36	58
+	+	35	31
+	+	36	31
+	+	10	19
+	+	12	18
+	+	10	12
+	+	12	6
+	+	10	34
+	+	12	34
+	+	72	20
+	+	4	21
+	+	5	18
+	+	3	19
+	+	4	0
+	+	6	19
+	+	17	28
+	+	17	26
+	+	17	26
+	+	17	76
+	+	17	77
+	+	24	26
+	+	24	74
+	+	18	0
+	+	18	0
+	+	18	0
+	+	17	4
+	+	8	17
+
+> ~/b10_process_thread/process/Makefile
+	"	5	12
+	^	5	13
+	.	5	12
+	+	5	19
+	+	7	19
+	+	5	12
 
 > ~/b9_systemcall/file_management/test.txt
 	"	1	0
@@ -197,12 +320,6 @@
 
 > ~/b9_systemcall/file_management/main,.c
 	"	1	0
-
-> ~/b9_systemcall/file_management/Makefile
-	"	7	22
-	^	7	23
-	.	7	22
-	+	7	22
 
 > ~/b9_systemcall/process_control/exit/Makefile
 	"	5	15
@@ -458,20 +575,6 @@
 	^	6	13
 	.	6	12
 	+	6	12
-
-> ~/b5_makefile/Implicit_rule/Makefile
-	"	1	2
-	^	3	17
-	.	4	0
-	+	11	0
-	+	10	8
-	+	5	13
-	+	3	16
-	+	7	0
-	+	8	1
-	+	5	0
-	+	3	17
-	+	4	0
 
 > ~/b6_shell/clean_script.sh
 	"	3	23
